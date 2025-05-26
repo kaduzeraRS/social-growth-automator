@@ -8,7 +8,7 @@ import { Settings, Users, Plus, Power, AlertTriangle } from 'lucide-react';
 const Accounts = () => {
   return (
     <div>
-      <Navbar />
+      
       {/* Aqui começa o conteúdo do seu componente */}
       <h1 className="text-2xl font-bold">Accounts Page</h1>
 
