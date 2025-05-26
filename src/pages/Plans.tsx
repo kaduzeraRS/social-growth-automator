@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Check, Star, Zap } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
+import Navbar from '@/components/Navbar';
 
 const Plans = () => {
   const plans = [

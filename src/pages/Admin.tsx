@@ -1,12 +1,10 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Users, Activity, CreditCard, Shield, Search, Filter } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-
+import Navbar from '@/components/Navbar';
 const Admin = () => {
   const users = [
     {

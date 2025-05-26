@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -7,7 +6,7 @@ import { Label } from '@/components/ui/label';
 import { Switch } from '@/components/ui/switch';
 import { Badge } from '@/components/ui/badge';
 import { User, Bell, Settings as SettingsIcon, Shield, CreditCard } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
+import Navbar from '@/components/Navbar';
 
 const Settings = () => {
   return (

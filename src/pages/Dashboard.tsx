@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { Calendar, Users, Heart, MessageCircle, TrendingUp, Instagram, PlayCircle, Settings, Bell, Plus, Activity, Clock, CheckCircle, AlertTriangle } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
+import Navbar from '@/components/Navbar';
 
 const Dashboard = () => {
   const stats = [
